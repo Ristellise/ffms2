@@ -331,7 +331,7 @@ void FFMS_Track::FinalizeTrack() {
         Frames.pop_back();
 
     if (TT == FFMS_TYPE_AUDIO) {
-        FillAudioGaps();
+        // FillAudioGaps();
         return;
     }
 
